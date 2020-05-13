@@ -35,7 +35,11 @@ public class homepagestepdefs extends util {
 
     }
 
-
+    //quiting browser
+    @After()
+    public void firstafter() {
+        quitbrowser();
+    }
 
     //opening browser and navigating to website
     @Given("^Navigate to website$")
