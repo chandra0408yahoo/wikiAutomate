@@ -61,22 +61,4 @@ public class homepagestepdefs extends util {
         homepage_method.verifyHeaderText(VerifyString);
     }
 
-    //VERIFY FOR SEARCH FOR LANGUAGES
-
-    @Then("^Verify search page for other (.*)$")
-    public void verifySearchPageForOtherLanguages(String VerifyString) {
-        homepage_method.verifyLanguage(VerifyString);
-    }
-
-    // NAVIGATE TO DIFFERENT LANGUAGE
-    @When("^I navigate to different language (.*)$")
-    public void iNavigateToDifferentLanguage(String desiredLanguage) throws InterruptedException {
-        homepage_method.navigateToSearchLanguage(desiredLanguage);
-    }
-
-    // VERIFY ENGLISH WORD IN DIFFERENT LANGUGAGE
-    @Then("^I verify search page of new language has (.*)$")
-    public void iVerifySearchPageOfNewLanguageHasEnglish(String verifyLanguage) {
-        homepage_method.verifySearchLanguagehasEnglish(verifyLanguage);
-    }
 }
