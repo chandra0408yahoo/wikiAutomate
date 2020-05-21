@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2320984401,
+  "duration": 1911805767,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,7 +52,7 @@ formatter.match({
   "location": "homepagestepdefs.navigateToWebsite()"
 });
 formatter.result({
-  "duration": 50855662,
+  "duration": 876040227,
   "status": "passed"
 });
 formatter.match({
@@ -65,7 +65,7 @@ formatter.match({
   "location": "homepagestepdefs.searchForInWikipedia(String)"
 });
 formatter.result({
-  "duration": 1634412669,
+  "duration": 1926764755,
   "status": "passed"
 });
 formatter.match({
@@ -78,7 +78,7 @@ formatter.match({
   "location": "homepagestepdefs.verifyTheSearchPageHeadingIs(String)"
 });
 formatter.result({
-  "duration": 189432178,
+  "duration": 305937638,
   "status": "passed"
 });
 formatter.match({
@@ -91,7 +91,7 @@ formatter.match({
   "location": "homepagestepdefs.verifySearchPageForOtherLanguages(String)"
 });
 formatter.result({
-  "duration": 173303529,
+  "duration": 178030220,
   "status": "passed"
 });
 formatter.match({
@@ -104,7 +104,7 @@ formatter.match({
   "location": "homepagestepdefs.iNavigateToDifferentLanguage(String)"
 });
 formatter.result({
-  "duration": 1730018925,
+  "duration": 1670392754,
   "status": "passed"
 });
 formatter.match({
@@ -117,11 +117,11 @@ formatter.match({
   "location": "homepagestepdefs.iVerifySearchPageOfNewLanguageHasEnglish(String)"
 });
 formatter.result({
-  "duration": 44484497,
+  "duration": 44717058,
   "status": "passed"
 });
 formatter.after({
-  "duration": 94894845,
+  "duration": 106134249,
   "status": "passed"
 });
 });
